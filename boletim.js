@@ -35,7 +35,7 @@ if (nota6 >= 6) {
     console.log(aluno6 + " - Em recuperação");
 } */
 
-const nomes = ["Ana", "Bruno", "Carlos", "Daniela", "Eduardo", "Fernanda"];
+/* const nomes = ["Ana", "Bruno", "Carlos", "Daniela", "Eduardo", "Fernanda"];
 const media = [9, 8, 6, 4, 3, 10];
 const media_escola = 6;
 
@@ -46,4 +46,18 @@ for (let i = 0; i < media.length; i++) {
         console.log(nomes[i] + " reprovado(a)");
     }
 }
-console.log("nome:" + nomes[3], "media:" + media[3]);
+console.log("nome:" + nomes[3], "media:" + media[3]); */
+
+const medias = [9, 8, 6, 4, 3, 10];
+
+let soma = 0;
+let aprovados = 0;
+
+for (let i = 0; i < medias.length; i++) {
+    soma = soma + medias[i]
+    if (medias[i] >= 7) {
+        aprovados++;
+    }
+}
+console.log('Aprovados:'+ aprovados +'\n Média da turma:'+(soma / medias.length).toFixed(2))
+
