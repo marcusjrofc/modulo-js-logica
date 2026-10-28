@@ -36,10 +36,10 @@ if (nota6 >= 6) {
 } */
 
 const nomes = ['Ana', 'Bruno', 'Carlos', 'Daniela', 'Eduardo', 'Fernanda']
-const notas = [9, 8, 6, 4, 3, 10]
+const media = [9, 8, 6, 4, 3, 10]
 
 for (let i = 0; i < 6; i++) {
-    if(notas[i] >= 6){
+    if(media[i] >= 6){
         console.log(nomes[i]+' foi aprovado(a)')
     }else{
         console.log(nomes[i]+' em recuperação')
