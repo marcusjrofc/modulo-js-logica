@@ -39,9 +39,9 @@ const nomes = ['Ana', 'Bruno', 'Carlos', 'Daniela', 'Eduardo', 'Fernanda']
 const media = [9, 8, 6, 4, 3, 10]
 
 for (let i = 0; i < 6; i++) {
-    if(media[i] >= 6){
-        console.log(nomes[i]+' foi aprovado(a)')
+    if(media[i] >= 7){
+        console.log(nomes[i]+' aprovado(a)')
     }else{
-        console.log(nomes[i]+' em recuperação')
+        console.log(nomes[i]+' reprovado(a)')
     }
 }
