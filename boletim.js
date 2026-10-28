@@ -35,13 +35,15 @@ if (nota6 >= 6) {
     console.log(aluno6 + " - Em recuperação");
 } */
 
-const nomes = ['Ana', 'Bruno', 'Carlos', 'Daniela', 'Eduardo', 'Fernanda']
-const media = [9, 8, 6, 4, 3, 10]
+const nomes = ["Ana", "Bruno", "Carlos", "Daniela", "Eduardo", "Fernanda"];
+const media = [9, 8, 6, 4, 3, 10];
+const media_escola = 6;
 
-for (let i = 0; i < 6; i++) {
-    if(media[i] >= 7){
-        console.log(nomes[i]+' aprovado(a)')
-    }else{
-        console.log(nomes[i]+' reprovado(a)')
+for (let i = 0; i < media.length; i++) {
+    if (media[i] >= media_escola) {
+        console.log(nomes[i] + " aprovado(a)");
+    } else {
+        console.log(nomes[i] + " reprovado(a)");
     }
 }
+console.log("nome:" + nomes[3], "media:" + media[3]);
