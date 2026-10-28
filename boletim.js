@@ -1,4 +1,4 @@
-let aluno1 = "Ana", nota1 = 8;
+/* let aluno1 = "Ana", nota1 = 8;
 if (nota1 >= 6) {
     console.log(aluno1 + " - Aprovado");
 } else {
@@ -33,4 +33,15 @@ if (nota6 >= 6) {
     console.log(aluno6 + " - Aprovado");
 } else {
     console.log(aluno6 + " - Em recuperação");
+} */
+
+const nomes = ['Ana', 'Bruno', 'Carlos', 'Daniela', 'Eduardo', 'Fernanda']
+const notas = [9, 8, 6, 4, 3, 10]
+
+for (let i = 0; i < 6; i++) {
+    if(notas[i] >= 6){
+        console.log(nomes[i]+' foi aprovado(a)')
+    }else{
+        console.log(nomes[i]+' em recuperação')
+    }
 }
