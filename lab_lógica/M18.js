@@ -8,7 +8,7 @@ function converter(valor, escala) {
     return `${F.toFixed(1)} F`;
   } else if (escala == "F") {
     let C = ((valor - 32) * 5) / 9;
-    return `${C.toFixed(1)} C`;
+    return `${C.toFixed(1)} C`; 
   } else {
     return "Escala inválida";
   }
